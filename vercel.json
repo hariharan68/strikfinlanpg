@@ -2,11 +2,13 @@
   "experimentalServices": {
     "frontend": {
       "root": "frontend",
-      "mount": "/"
+      "mount": "/",
+      "framework": "vite"
     },
     "backend": {
       "root": "backend",
-      "mount": "/api"
+      "mount": "/api",
+      "framework": "fastapi"
     }
   }
 }
